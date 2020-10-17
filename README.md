@@ -49,20 +49,12 @@ Example
 ```
 Convert a picture to a character picture
 
-
-```
-python gif2ascii.py  FILENAME
-
-Example
-	 python video2ascii.py test.gif
-```
-Convert a gif picture to a character gif picture
-
 ## Code Reference
 -[Screen processing (version rossning92)] The core code for the image processing is character animation. Most of the code (ascii_art.py) used by rossning92 is used (two bugs fixed at the same time, [original url](https://gist.github.com/rossning92/bb1667e5e14a63148dcd61b4455ce52f)
 -[Audio and video processing (ryan4yin version)] Video and audio processing is most of the code of ryan4yin boss video2chars (parts deleted, [original url](https://github.com/ryan4yin/video2chars)
 
-
+##Demonstration
+[Python Url-bilibili](https://www.bilibili.com/video/BV1Ct4y1v77S/)
 
 ## Related Projects
 
