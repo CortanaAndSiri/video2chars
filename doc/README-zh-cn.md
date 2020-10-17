@@ -5,8 +5,8 @@
 [![Python 3.6+](https://img.shields.io/pypi/pyversions/video2chars.svg?style=flat)](https://www.python.org/)
 
 该项目严格意义上来说是两个小项目合并的优化版本,因为比较感兴趣，对比了多段代码，在pronhub两个大佬的代码下改动完成的，使用两位大佬的核心代码，填补了一些bug，缝合拼装完成：
-	画面处理为字符动画核心代码使用为rossning92大佬的大部分代码(ascii_art.py)（同时修补了两处bug,[原url](https://gist.github.com/rossning92/bb1667e5e14a63148dcd61b4455ce52f)
-	视频音频处理为ryan4yin大佬的大部分代码video2chars(删减了部分，[原url](https://github.com/ryan4yin/video2chars)
+  画面处理为字符动画核心代码使用为rossning92大佬的大部分代码(ascii_art.py)（同时修补了两处bug,[原url](https://gist.github.com/rossning92/bb1667e5e14a63148dcd61b4455ce52f)
+  视频音频处理为ryan4yin大佬的大部分代码video2chars(删减了部分，[原url](https://github.com/ryan4yin/video2chars)
 这是一个能将图片，视频文件转换成字符动画的命令行工具，使用 pillow + moviepy 实现
 
 ## 安装
@@ -46,7 +46,7 @@ Example
 python video2ascii.py  FILENAME
 
 Example
-	 python video2ascii.py test.jpg
+   python video2ascii.py test.jpg
 ```
 单张图片转换为字符图片
 
@@ -61,7 +61,8 @@ Example
 ```
 将gif处理为字符gif图
 
-
+## 视频展示
+[Python Url-bilibili](https://www.bilibili.com/video/BV1Ct4y1v77S/)
 
 ## 相关项目
 
