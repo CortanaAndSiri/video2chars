@@ -53,6 +53,15 @@ Example
 >p.s. 注意性能，python 单核跑的，慢也没办法。实在是慢的话，可以尝试调低一下这两个参数。
 
 
+```
+python gif2ascii.py  FILENAME
+
+Example
+   python video2ascii.py test.gif
+```
+将gif处理为字符gif图
+
+
 
 ## 相关项目
 
