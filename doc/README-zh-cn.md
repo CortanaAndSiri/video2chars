@@ -34,9 +34,10 @@ Options:
   --output TEXT      output to a file with this name, default to "output.mp4"
   --help             Show this message and exit.
 
-
+Example
+  python video2chars.py --fps 30  --t_start 0  --t_end 10 --output output.mp4  inputfile.mp4
 ```
-上面的命令表示，将指定路径的视频，转换成宽度为120字符的视频，只转换前十秒。
+上面的命令表示，将指定路径的视频，转换成fps为30的视频，只转换前十秒。
 命令运行完毕后，会在当前目录下生成一个名为 `output.mp4` 的字符视频。
 
 使用 `video2chars --help` 命令，获取更多信息。
@@ -49,13 +50,8 @@ Example
 ```
 单张图片转换为字符图片
 
->p.s. 注意性能，python 单核跑的，慢也没办法。。默认参数 width=100 fps=8。实在是慢的话，可以尝试调低一下这两个参数。
+>p.s. 注意性能，python 单核跑的，慢也没办法。实在是慢的话，可以尝试调低一下这两个参数。
 
-
-
-## 教程
-
-shell 版的教程见[视频转字符动画-Python-60行代码](http://www.cnblogs.com/kirito-c/p/5971988.html)
 
 
 ## 相关项目
