@@ -31,9 +31,10 @@ Options:
   --output TEXT      output to a file with this name, default to "output.mp4"
   --help             Show this message and exit.
 
-
+Example
+	python video2chars.py --fps 30  --t_start 0  --t_end 10 --output output.mp4  inputfile.mp4
 ```
-The command shows that the specified video will be converted to an ascii art animation with the width of 120, and only convert the first 10 seconds. 
+The command shows that the specified video will be converted to an ascii art animation with 30 fps, and only convert the first 10 seconds. 
 you'll see a file named `output.mp4` in your current directory when completes, have fun ~
 
 >p.s. it's a bit slow, turn down the width and fps, to speed up the conversion. 
@@ -49,7 +50,7 @@ Example
 Convert a picture to a character picture
 
 ## Code Reference
--[Screen processing (version rossning92)] The core code for the image processing is character animation. Most of the code (ascii_art.py) used by rossning92 is used (two bugs fixed at the same time, [original url](https://gist.github) .com/rossning92/bb1667e5e14a63148dcd61b4455ce52f)
+-[Screen processing (version rossning92)] The core code for the image processing is character animation. Most of the code (ascii_art.py) used by rossning92 is used (two bugs fixed at the same time, [original url](https://gist.github.com/rossning92/bb1667e5e14a63148dcd61b4455ce52f)
 -[Audio and video processing (ryan4yin version)] Video and audio processing is most of the code of ryan4yin boss video2chars (parts deleted, [original url](https://github.com/ryan4yin/video2chars)
 
 
